@@ -208,8 +208,8 @@ def update_sir(country):
     }
 
 if __name__ == '__main__':
-    get_johns_hopkins()
-    store_relational_JH_data()
-    build_JH_features()
+    #get_johns_hopkins()
+    #store_relational_JH_data()
+    #build_JH_features()
 
     app.run_server(debug=True, use_reloader=False)
